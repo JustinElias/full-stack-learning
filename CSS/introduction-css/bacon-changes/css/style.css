@@ -1,0 +1,33 @@
+body{
+  background-color: lightblue;
+}
+h1{
+  color: red;
+  font-size: 200px;
+}
+
+img:hover{
+  background-color: gold;
+}
+
+/*Bacon background image*/
+.bacon{
+  background-color: green;
+}
+
+/* Broccoli background image*/
+.broccoli{
+  background-color: yellow;
+}
+
+.circular{
+  border-radius: 100%;
+}
+
+
+/* Id Selectors */
+
+/*This will override the h1 change above because it is more specific*/
+#heading{
+  color: blue;
+}
