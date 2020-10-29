@@ -1,3 +1,14 @@
 body{
   background-color: lightblue;
 }
+
+.pro{
+  text-decoration: underline;
+}
+
+/*
+Display: inline-block; change width and it's an inline property, best of both worlds
+None - gets rid of element completely
+
+visibility: hidden; makes element dissapear, but keeps position
+*/
