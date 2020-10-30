@@ -10,5 +10,14 @@ body{
 Display: inline-block; change width and it's an inline property, best of both worlds
 None - gets rid of element completely
 
-visibility: hidden; makes element dissapear, but keeps position
+visibility: hidden; makes element disappear, but keeps position
+
+position: position elements on screen the way WE want to, instead of going 
+along with default layout.
+
+position: static; default - go along with HTML rules
+position: relative; position element we select relative to how it would have 
+been positioned if it was sat in. Does not affect any other elements on screen.
+position: absolute;
+position: fixed;
 */
