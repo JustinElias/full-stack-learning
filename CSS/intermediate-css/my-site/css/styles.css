@@ -1,9 +1,34 @@
 body{
   background-color: lightblue;
+  margin: 0;
+  text-align: center; /* centers everything inside parent that doesn't have width set*/
+}
+
+h1{
+  margin-top: 0;
+  width: 10%;
 }
 
 .pro{
   text-decoration: underline;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-container{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
 }
 
 /*
@@ -16,8 +41,26 @@ position: position elements on screen the way WE want to, instead of going
 along with default layout.
 
 position: static; default - go along with HTML rules
+
 position: relative; position element we select relative to how it would have 
 been positioned if it was sat in. Does not affect any other elements on screen.
-position: absolute;
+
+position: absolute; positioning the element relative to its parent. In most 
+cases, the parent is body of the webpage. Adding a margin to its parent 
+element. This does affect flow of HTML. As if you have deleted it. Can move it 
+anywhere in relation to its parent.
+
 position: fixed;
 */
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
